@@ -17,6 +17,6 @@
   ],
   "dependencies":{
     "angular": "~1.0.6",
-    "angular-leaflet":"~1.0"
+    "angular-leaflet": "~0.7.8"
   }
 }
