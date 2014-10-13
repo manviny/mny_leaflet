@@ -1,0 +1,22 @@
+{
+  "name": "mny_leaflet",
+  "main": "mny_leaflet.js",
+  "version": "0.0.0",
+  "authors": [
+    "manviny"
+  ],
+  "description": "tools to use leaflet with angular",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies":{
+    "angular": "~1.0.6",
+    "angular-leaflet"
+  }
+}
