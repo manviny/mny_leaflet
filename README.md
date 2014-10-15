@@ -8,11 +8,14 @@ bower install manviny/mny_leaflet --save
 mny_leaflet
 ===========
 
-```html
-<ons-page class="center" ng-controller="LocalizaCtrl">
-    <leaflet center="centerHere" markers="myMarkers"  layers="layers" defaults="defaults"  ></leaflet>
-</ons-page>
-````
+```javascript
+angular
+  .module('myApp', [
+...
+    'ngRoute',
+    'manviny.mny-leaflet',
+    ... ])
+```
 
 
 ```javascript
@@ -35,3 +38,8 @@ angular.module('myApp')
 ```
 
 
+```html
+<ons-page class="center" ng-controller="LocalizaCtrl">
+    <leaflet center="centerHere" markers="myMarkers"  layers="layers" defaults="defaults"  ></leaflet>
+</ons-page>
+````
