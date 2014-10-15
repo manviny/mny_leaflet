@@ -17,19 +17,19 @@ mny_leaflet
 
 ```javascript
 angular.module('myApp')
-  .controller('LocalizaCtrl', function ($scope, mapa) {
+  .controller('LocalizaCtrl', function ($scope, mnymapa) {
 
   	// initialize map
-	mapa.setDefaultMap();
+	mnymapa.setDefaultMap();
 
 
   	var array = [];
 	// array.push({lat: 39.50300178969824, lng: -3.878173828125, focus: true, draggable: false});	
 	// array.push({lat: 38.50300178969824, lng: -2.878173828125, focus: true, draggable: false});	
 
-	mapa.pushMarkers(array); 
-	mapa.myPosition();
-	// mapa.fitMarkers(array); // not reloading map
+	mnymapa.pushMarkers(array); 
+	mnymapa.myPosition();
+	// mnymapa.fitMarkers(array); // not reloading map
 
   });
 ```
