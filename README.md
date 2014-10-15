@@ -1,12 +1,17 @@
 ##How to create a new angular component (bower)
 [Brian Ford](http://briantford.com/blog/angular-bower)  
 
-## install it
-bower install manviny/mny_leaflet --save
+# How to use it
+
+1. bower install manviny/mny_leaflet --save 
+2. check that all js and css libraries are loaded
+3. inject 'manviny.mny-leaflet' into your app module
+4. add  mnymapa to your controller
+5. start using it
 
 
-mny_leaflet
-===========
+mny_leaflet example
+===================
 
 ```javascript
 angular
@@ -39,7 +44,7 @@ angular.module('myApp')
 
 
 ```html
-<ons-page class="center" ng-controller="LocalizaCtrl">
+<div class="center" ng-controller="LocalizaCtrl">
     <leaflet center="centerHere" markers="myMarkers"  layers="layers" defaults="defaults"  ></leaflet>
-</ons-page>
+</div>
 ````
