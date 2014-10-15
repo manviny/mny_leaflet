@@ -2,7 +2,7 @@
 [Brian Ford](http://briantford.com/blog/angular-bower)  
 
 ## install it
-bower install manviny/mny_leaflet  
+bower install manviny/mny_leaflet --save
 
 
 mny_leaflet
