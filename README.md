@@ -1,5 +1,8 @@
 ##How to create a new angular component (bower)
-[Brina Ford](http://briantford.com/blog/angular-bower)
+[Brian Ford](http://briantford.com/blog/angular-bower)  
+
+## install it
+bower install manviny/mny_leaflet  
 
 
 mny_leaflet
@@ -31,5 +34,4 @@ angular.module('myApp')
   });
 ```
 
-## install it
-bower install manviny/mny_leaflet
+
