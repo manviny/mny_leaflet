@@ -1,5 +1,24 @@
-##How to create a new angular component (bower)
+#How to create a new angular component (bower)
 [Brian Ford](http://briantford.com/blog/angular-bower)  
+
+1. bower init  
+```json
+{
+  "name": "angular-my-directive",
+  "version": "0.0.0",
+  "main":  [ "mny_leaflet.js", "mny_leaflet.css" ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {        // ADD NEEDED DEPENDENCIES
+    "angular": "~1.0.6"
+  }
+}
+```
+2. create a new git
+3. install bower install your-user-name/angular-my-component
 
 # How to use it
 
