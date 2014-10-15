@@ -1,3 +1,7 @@
+##How to create a new angular component (bower)
+[Brina Ford](http://briantford.com/blog/angular-bower)
+
+
 mny_leaflet
 ===========
 
