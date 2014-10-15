@@ -1,6 +1,6 @@
 {
   "name": "mny_leaflet",
-  "main": "mny_leaflet.js",
+  "main": [ "mny_leaflet.js", "mny_leaflet.css" ],
   "version": "0.0.0",
   "authors": [
     "manviny"
