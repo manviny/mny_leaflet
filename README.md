@@ -17,16 +17,16 @@
   }
 }
 ```
-2. create a new git
-3. install bower install your-user-name/angular-my-component
+2. create a new git  
+3. install bower install your-user-name/angular-my-component  
 
 # How to use it
 
-1. bower install manviny/mny_leaflet --save 
-2. check that all js and css libraries are loaded
-3. inject 'manviny.mny-leaflet' into your app module
-4. add  mnymapa to your controller
-5. start using it
+1. bower install manviny/mny_leaflet --save  
+2. check that all js and css libraries are loaded  
+3. inject 'manviny.mny-leaflet' into your app module  
+4. add  mnymapa to your controller  
+5. start using it  
 
 
 mny_leaflet example
